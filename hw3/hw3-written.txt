@@ -1,6 +1,18 @@
-1. a)
-   b)
+1. a) No. The bar chart does not adequately highlight
+      differences in percentage since the bars are all
+      about the same height; as a result, it's a poor choice.
+   b) I felt that two lines would be a good way of intuitively visualizing
+      two different degree types, and the percentage over time is best
+      visualized as a line graph as well.
 
-2.
+2. One possible bias is selection bias; since the data is (could be?)
+   self-reported, students who did not attain a degree are less likely to
+   respond to a survey that asks them if they attained one. Thus, the percentages
+   may be skewed in the positive direction.
 
-3.
+3. The dataset could be used to justify why some ethnicity is more intelligent
+   than another based on the data points of how some ethnicities attain more
+   degrees (by percentage) than another. A regular person would probably believe
+   that this is misuse since it is a) being used to demonize/ostracize a population
+   and b) inaccurate; it is assuming causation from correlation, and the dataset
+   only provides correlation.
