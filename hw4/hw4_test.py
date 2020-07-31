@@ -4,7 +4,6 @@ from document import Document
 from search_engine import SearchEngine
 
 
-# This file is left blank for you to fill in with your tests!
 def test_document():
     """Tests the Document class"""
     doc = Document('test_search/file.txt')

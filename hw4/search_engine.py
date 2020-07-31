@@ -27,6 +27,7 @@ class SearchEngine:
         return inv_index
 
     def _calculate_idf(self, term: str) -> float:
+        """Returns the inverse document frequency score of `term`"""
         if term not in self._inv_index:
             return 0
         return math.log(self._num_docs / len(self._inv_index[term]))

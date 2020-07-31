@@ -17,17 +17,17 @@ class Document:
     def _build_counter(fpath: str) -> dict:
         """Helper method to initialize internal counter index"""
         with open(fpath) as f:
-            tokens = [re.sub(r'\W+', '', token)
+            tokens = [re.sub(r'\W+', '', token).lower()
                       for token in f.read().split()]
         counter = {}
         for token in tokens:
             if token not in counter:
                 counter[token] = 0.
-            counter[token] += 1.
+            counter[token] += 1 / len(tokens)
         # Remove empty strings
         if '' in counter:
             del counter['']
-        return {k: v / len(tokens) for k, v in counter.items()}
+        return counter
 
     def get_path(self) -> str:
         """
